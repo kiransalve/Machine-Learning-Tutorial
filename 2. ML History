@@ -1,0 +1,114 @@
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+reasons why Machine Learning (ML) has exploded in recent years
+
+ML comes 40-50 years ago
+
+Back in the 1950s-1990s, we had
+
+but that time we have not much data
+limited Data – No social media, no IoT, no big databases.
+
+because data not generated 
+because internet were expensive
+data sharing was difficult.
+
+Expensive & Slow Hardware – Computers were weak, and storage was costly.
+
+that are not capable to run ml model to vast amount data
+
+Now we have great hardwere, good internet availability
+and that why we can generate more data 
+
+one study found that
+the data genereted from ancient to 2015 
+the same amount of data generated in 2016 year only
+
+
+AI is insert intelligence in to machines
+
+we humans use intelligence like 
+pattern recognization, 
+problem soving,
+creativity,
+imagination,
+emotional intelligence 
+
+it is very complex
+
+we cant insert this all to machine
+because these are not measurable except pattern recognization
+
+we cant make other terms measurable
+
+like equation of love, creativity, fear, anger etc.
+
+In past, we have make AI, 
+called Symbolic AI
+
+example - chess game
+
+we get all knowledge from one chess expert
+convert to code
+it called exert system
+
+but it failed in fuzzy scenario
+where some moves are out of range of that knowledge
+
+this problem was solved by ML
+
+it find pattern of data and change it logic
+
+ML doesn't do explicit programming
+
+we give data to system
+data have input and output
+so now system have to extract rules and patterns
+when new data comes
+it use that rule
+and give output
+
+like detecting dog in image
+we give lots of photos of dog
+system will learn on the basis of photos
+
+ML is inspired from statistics but not derived from it
+
+Deep Learning use same process
+
+DL are inspired from Biology but its base is maths
+
+certain thing ML not perform well
+
+we have to give featurea to ML
+
+like dog dection
+we have to give feature of dog
+
+but in DL 
+it automatically finds features
+
+it is beneficial when we don't know features
+
+No. of layers increases efficiency of DL
+
+In ML, efficiency increases as we provide more data
+but at certain point its stabilized
+
+In DL performance increased as data comes
+
+But in some scenario ML is better
+
+we cant to use "Talwar" in place of "Chaku"
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
