@@ -4,7 +4,7 @@ we have 4 types of ML
 How to find out the given dataset which type of ML required
 
 
------"Supervised ML"-----
+-----1. Supervised ML-----
 
 ask data that
 is it have input and output column?
@@ -27,4 +27,96 @@ imagine the student who work daily 2 hours study for whole year gets 70% marks
 also who study 3 hours the marks will increases
 so our output is marks which is numerical 
 so it it regression problem
+
+if data output value is categorical
+like Gender, Product Group, Grades etc
+
+imagine teacher have student data where there favorite plays are listed out of
+cricket and kho - kho
+
+
+
+-----2. Un Supervised ML-----
+aks data that 
+is it have only input column, no output column?
+
+ML where the model learns patterns and structures 
+from data without any predefined labels.
+
+1. Clustering
+
+Imagine you work for an e-commerce company,
+and you want to segment customers based on their shopping behavior. 
+You have data like:
+
+Annual Spending
+Number of Purchases
+Account Age
+
+We can categorize this customers 
+
+High spenders
+Frequent buyers 
+New customers
+
+
+2. Dimensionality Reduction
+
+Reducing the number of features while retaining important information.
+
+You have data set for real estate
+have columns like 
+No. of Bedroom and No of Washroom
+so this algorithm will combine them
+and make new column 
+total_area
+
+
+3.  Anomaly Detection
+
+It is like finding outlier 
+
+
+4. Association Rule Learning
+find relationships between variables in large datasets.
+
+like if some one takes huggies then they can also milk
+
+
+----3. Semi-Supervised Learning----
+if we have thousands of dog and cat photo
+then we have to labeling them manualy 
+but using Semi-Supervised Learning 
+we will do only some photos label
+ML algorithm automaticaly detects others photo
+is it cat or dog
+
+simmilar feature in our google photo
+if we tag one photo as "me" then all photo that have "me" 
+google tagged them in category of "me"
+
+
+
+----4. Reinforcement Learning----
+
+Reinforcement Learning is a type of machine learning 
+where an agent learns by interacting with an environment 
+and receiving rewards or penalties based on its actions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
