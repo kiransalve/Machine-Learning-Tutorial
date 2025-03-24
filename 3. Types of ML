@@ -1,0 +1,30 @@
+On the basis of amount of supervision required 
+we have 4 types of ML
+
+How to find out the given dataset which type of ML required
+
+
+-----"Supervised ML"-----
+
+ask data that
+is it have input and output column?
+means data already have question and asnwer 
+and we have to identify relation between them 
+for future new value, then it is "Supervised ML"
+
+imagine a maths teacher given exercise to students 
+and solved the exercise on board.
+teacher says, in exam questions comes based on this, just numbers will changes
+student learn patterns to solve the exercise problems 
+
+ask data that
+is it have output value numerical or categorical?
+
+if data output value is numericals
+like Sales Value, Order Qty, Age, Stock Prices etc
+
+imagine the student who work daily 2 hours study for whole year gets 70% marks
+also who study 3 hours the marks will increases
+so our output is marks which is numerical 
+so it it regression problem
+
