@@ -41,7 +41,7 @@ like d1, d2, d3,....., dn
 where n = total no. of data points
 
 so total errors are
-E = d1, d2, d3,....., dn
+E = d1 + d2 + d3 + ..... + dn
 the distance from line upper side will be positive (4,5,6,7)
 and distance from line lower side be negetive (-2,-3,-4,-5)
 so if we total them they will cancel each other and we cant get perfect total distance
@@ -57,7 +57,57 @@ Reason 2 - we will differentiate the above equestion and graph of mod is continu
 why square , why not power 4 or power 8
 so if my work is done by square then why go beyond? (2 se kam chal raha hai to 4 kyo leu?)
 
-$$
-E = d_1^2 + d_2^2 + d_3^2 + \dots + d_n^2
-$$
+E = d1^2 + d2^2 + d3^2 + .... + dn^2
+
+We can write 
+
+       n
+E =    ∑ di^2
+      i=1
+
+E is error function
+n = total no. data points
+i = data points
+
+So now we can say we want minimum value of this equetion
+
+what is ditance, it is simply ditance between line and data point
+and we this is respect to y value, like we have line at y^i and our original data point is at yi (in ml prediction denoted as hat (^))
+
+so the distance is di = (yi - y^i) (actual packege - predicted packege)
+
+rewrite equestion
+
+
+       n
+E =    ∑ (yi - y^i)^2
+      i=1
+
+
+now we want minimum value of above equestion
+
+y^i = mxi + b
+
+put value of y^i in E 
+
+
+
+              n
+E (m, b)  =   ∑  (yi - mxi - b)^2
+             i=1
+
+
+y and x is already in data, so you cant change them
+
+you can only experiment values of m and b to find minimum value
+
+m and b are line tuning knob, if we turn m or b our E will be change
+
+suppose if b = 0
+
+
+
+
+
+
 
