@@ -35,3 +35,29 @@ because if there is perfect line, that passes through all data point, and there 
 
 so the best fit line has some error with respective to each line (Har data-points se kam jyada distance hai)
 
+If we have d distance from line for each point, (or we can say error made by line to cross data points)
+like d1, d2, d3,....., dn
+
+where n = total no. of data points
+
+so total errors are
+E = d1, d2, d3,....., dn
+the distance from line upper side will be positive (4,5,6,7)
+and distance from line lower side be negetive (-2,-3,-4,-5)
+so if we total them they will cancel each other and we cant get perfect total distance
+
+so we will take square of each distances
+
+why square, we can take |d1| modulus, to get total distance
+
+Reason 1 - We want to panalize outlier, like if (5, 1) is distances, it becomes (25,1) 
+
+Reason 2 - we will differentiate the above equestion and graph of mod is continueous but not differentiable at origin and graph of square is differentiable at any point
+
+why square , why not power 4 or power 8
+so if my work is done by square then why go beyond? (2 se kam chal raha hai to 4 kyo leu?)
+
+$$
+E = d_1^2 + d_2^2 + d_3^2 + \dots + d_n^2
+$$
+
