@@ -105,6 +105,157 @@ m and b are line tuning knob, if we turn m or b our E will be change
 
 suppose if b = 0
 
+m is angle between x axis and y axis
+it can be any degree 
+suppose our all data points lies between 30 degree to 45 degree 
+
+now if we turn our m (slope) from 0 degree to 15 degree our error (E) will get minimum
+and at certain degree our error is minimum like at 36 degree
+but after 36 degree error value become more and more 
+
+so graph of E vs m is slightly parabolic
+
+second case where m = 0
+means we cant change angle but we can now change b (y values)
+
+now suupose values y is from 0 to 7 LPA (Y is Package in LPA)
+and if y - intercept is 1 then value of E (error) is more (more mistakes, more distance)
+if we reduce y value and suppose at 0.07 error value is minimum, so we have line that closely pass through all data points
+and we reduce further like at -0.5 error become more, our line makes more mistakes
+
+so in both cases we get slightly paarbolic relation between E and (m, b)
+
+so we have to find out the value of E where the m and b values are minimum
+
+to find it we will do derivative of E w.r.t. m and b and then we make both equal to 0 
+
+if E depends only on m then 
+we simple do dE/dm = 0
+
+but E depends on m as well as b, we have to use partial derivatives,
+
+∂E/∂m = 0
+
+and 
+
+∂E/∂b = 0
+
+we have to solve these both equestion so that we get minimum values of m and b
+             n
+∂E/∂b = ∂/∂b ∑ (yi - mxi - b)^2 = 0
+            i=1
+
+
+we have to do differentiation for each student, so we can place sigma outside,
+
+∑ ∂/∂b (yi - mxi - b)^2 = 0
+
+using chain rule,
+
+∑  2(yi - mxi - b) * -1 = 0
+
+because differentiation of yi and mxi will be 0 and b is -1
+
+∑  - 2(yi - mxi - b) = 0
+
+divide by -2
+
+∑  (yi - mxi - b) = 0
+
+we can write
+
+∑yi - ∑mxi - ∑b = 0
+
+if we divide all by n (total no. of students)
+
+∑yi / n - ∑mxi / n - ∑b / n = 0
+
+where 
+
+∑yi / n is mean of y =  ȳ (average package of all students)
+
+∑xi / n is mean of x = x̄ (average CGPA of all students)
+
+and 
+
+∑b / n is 
+
+b + b + b + ... + b / n
+
+so nb/n and nb/n = b (n is canceled out)
+
+
+ȳ - mx̄ - b = 0
+
+or we can write
+
+b = ȳ - mx̄
+
+this is equetion to find out the value of y intercept
+
+to get value of m
+
+we place value of b in below equetion
+
+
+              n
+E (m, b)  =   ∑  (yi - mxi - b)^2
+             i=1
+
+
+
+              n
+E (m, b)  =   ∑  (yi - mxi - ȳ + mx̄)^2
+             i=1
+
+now we do partial differentiation of above,
+
+
+∂E/∂m = ∑ ∂/∂m (yi - mxi - ȳ + mx̄)^2
+
+using chain rule,
+
+yi becomes 0
+m becomes 1
+
+
+∑ 2(yi - mxi - ȳ + mx̄) (- xi + x̄) = 0
+
+∑ - 2(yi - mxi - ȳ + mx̄) (xi - x̄) = 0
+
+divide by -2
+
+∑ (yi - mxi - ȳ + mx̄) (xi - x̄) = 0
+
+re-arrange,
+
+∑ [(yi - ȳ) - m(xi + x̄)] (xi - x̄) = 0
+
+∑ [(yi - ȳ)(xi + x̄) - m(xi + x̄)^2] = 0
+
+∑ [(yi - ȳ)(xi + x̄) = ∑  m(xi + x̄)^2] 
+
+so m becomes
+
+    n                      n
+m = ∑ [(yi - ȳ)(xi + x̄) /  ∑ (xi + x̄)^2
+   i=1                    i=1
+
+
+so this is value of m and b
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
