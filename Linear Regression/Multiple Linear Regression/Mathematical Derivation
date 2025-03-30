@@ -1,0 +1,15 @@
+Multiple Linear Regression is extended version of Simple Linear Regression
+
+Where in Simple Linear Regression we have one input and one output column, 
+in Multiple Linear Regression we have more than one input coumns and one output column
+
+like in Simple Linear Regression we have CGPA and Package 
+in Multiple Linear Regression we could have CGPA, Gender, IQ, Package
+
+In real world scenario, we get Multiple Linear Regression problems mostly
+
+
+
+
+
+
