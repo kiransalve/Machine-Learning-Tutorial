@@ -8,6 +8,52 @@ in Multiple Linear Regression we could have CGPA, Gender, IQ, Package
 
 In real world scenario, we get Multiple Linear Regression problems mostly
 
+For Simple Linear Regression,
+y = mx + b
+
+For Multiple Linear Regression,
+
+y = mx1 + mx2 + b
+
+for Simple Linear Regression we drow a line to find best fit line that closely passes through all data points
+
+in Multiple Linear Regression like for 2 input columns we have to drow a plan that cut all points closely
+
+for every n input column we have n + 1 coefficient
+
+so if you have 3 input columns then we drow hyper plan, (for infinite column it called hyper plan only)
+
+For 2 input columns,
+
+y = mx1 + mx2 + b, (we have find minimum values of m and b)
+
+we can write,
+
+y = Bo + B1x1 + B2x2 (we have to find value of Bo, B1, B2)
+
+for 3 input columns,
+
+y = Bo + B1x1 + B2x2 + B3x3 (we have to find value of Bo, B1, B2, B3)
+
+for n input columns,
+
+y = Bo + B1x1 + B2x2 + ... + Bnxn
+
+Or we can write 
+          n
+y = Bo +  ∑ Bixi
+         i=1
+
+this will give us that our predicted value is how much depend upon the input columns
+
+like is iq matters in package, if iq value is low then salary goes low or not?
+
+https://miro.medium.com/v2/resize:fit:1400/format:webp/1*BvOPDfcZuNxSJyn15MXfKg.png
+
+
+
+
+
 
 
 
