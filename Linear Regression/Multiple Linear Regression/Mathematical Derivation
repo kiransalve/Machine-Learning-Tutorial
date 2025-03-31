@@ -50,14 +50,58 @@ like is iq matters in package, if iq value is low then salary goes low or not?
 if we have m columns and n students
 matrix - 
    
-|ŷ1|    |Bo  B1x11 B2x12 ... Bmx1m |
-|ŷ2|    |Bo  B1x21 B2x22 ... Bmx2m |
-|. |  = |...                       |
-|. |    |...                       |
-|ŷn|    |Bo  B1xn1 B2xn2 ... Bmxnm |
+|ŷ1|    |Bo   B1x11  B2x12  ...  Bmx1m |
+|ŷ2|    |Bo   B1x21  B2x22  ...  Bmx2m |
+|..|  = |...                           |
+|..|    |...                           |
+|ŷn|    |Bo   B1xn1  B2xn2  ...  Bmxnm |
+
+|ŷ1|    |1 x11  x12  ...  x1m |  | Bo |
+|ŷ2|    |1 x21  x22  ...  x2m |  | B1 |
+|. |  = |. ...                |  | B2 |
+|. |    |. ...                |  | .. |
+|ŷn|    |1 xn1  xn2  ...  xnm |  | Bm |
+
+By Matrix rule 
+A B = AB
+
+means first row of first matrix into whole second matrix 
+and then so on
+
+we can say 
+
+ŷ = XB
+
+Now we have y_train in data sets
+
+    | y1 |
+    | y2 |
+Y = | .. |
+    | .. |
+    | yn |
+          
+
+now we have error matrix
+
+e = y - ŷ
+
+  | y1 |   | ŷ1 |
+  | y2 |   | ŷ2 |
+= | .. | - | .. |
+  | .. |   | .. |
+  | yn |   | ŷn |
+
+  | y1 - ŷ1 |
+  | y2 - ŷ2 |
+= |    ..   |
+  |    ..   |
+  | yn - ŷn |
 
 
-
+for single linear regression,
+    n
+E = Σ yi - ŷi
+   i=1
 
 
 
