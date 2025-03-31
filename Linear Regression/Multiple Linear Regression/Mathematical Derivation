@@ -107,8 +107,85 @@ we have to prove,
 
 E = eTe
 
+(T means transpose and B means Beta)
 
-=[(y1 - ŷ1
+=[(y - ŷ)T (y - ŷ)
+
+=(yT - ŷT)(y - ŷ)
+
+=[yT - (xB)T) (y - xB)
+
+=yTy - yTxB - (xB)Ty + (xB)T xB ....(1)
+
+Detour
+
+yTxB = (xB)Ty ....to prove
+
+suppose 
+y = A and xB = B
+
+ATB = BTA
+
+we know (AB)T = BTAT and (AT)T = A
+
+(ATB)T = BTA
+
+so we have to prove
+
+ATB = (ATB)T
+
+suppose ATB = C
+
+C = CT
+
+we need to prove 
+
+(yTxB)T = yTxB
+
+take the shape of (yTxB)
+
+((1 X n) (n X (m + 1)) ((m + 1) X 1)
+
+1 X (m + 1) (m + 1) X 1 
+
+1 X 1
+
+it is matrix like [ 7 ]
+
+and [ 7 ]T is [ 7 ]
+
+so proved
+
+put this value in equetion (1)
+
+
+=yTy - 2 yTxB + (xB)T xB
+
+=yTy - 2 yTxB + xTBTxB
+
+to get minimum value, we differentiate,
+
+dE/dB = d/dB(yTy - 2 yTxB + xTBTxB)
+
+= 0 - 2 yTx + d/dB(BTXTXB) = 0
+
+= - 2 yTx + 2 xTxBT = 0
+
+2 yTx = 2 xTxBT 
+
+2 cancelled out
+
+BT = yTx(xTx)-1 (inverse)
+
+transpose both side
+
+(BT)T = [ yTx (xTx)-1 ]T
+
+
+B =  ((xTx)-1)T (yTx)T
+
+B = 
+
 
 
 
