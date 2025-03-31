@@ -103,8 +103,12 @@ for single linear regression,
 E = Σ yi - ŷi
    i=1
 
+we have to prove,
+
+E = eTe
 
 
+=[(y1 - ŷ1
 
 
 
