@@ -184,9 +184,6 @@ transpose both side
 
 B =  ((xTx)-1)T (yTx)T
 
-B = 
-
-
-
+B = ((xTx)-1)T xT
 
 
