@@ -1,0 +1,31 @@
+What is Batch Learning?
+
+Batch Learning means training a machine learning model using the entire dataset at once. 
+The model sees all the data during training, and once trained, it doesn’t learn anymore unless re-trained with new data.
+
+How it works:
+
+Collect and prepare all the data.
+Train the model on this full dataset.
+Use the trained model to make predictions.
+If new data arrives → retrain the model from scratch (or partially, if supported).
+
+Advantages:
+
+Better performance since it has access to all data at once.
+Often more stable and accurate because the model sees the complete picture.
+Can leverage optimized matrix operations and hardware like GPUs.
+
+
+Disadvantages:
+
+Not suitable for very large or continuously updating data (big data).
+Retraining from scratch every time new data arrives is computationally expensive.
+Not real-time.
+
+Use Cases:
+
+Static datasets (e.g., customer churn prediction, image classification).
+Applications where data doesn’t change frequently.
+
+
