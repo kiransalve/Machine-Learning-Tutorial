@@ -1,0 +1,91 @@
+Set of guideline you have to follow when developing ML model, from idea to products
+
+End to End product requirement in industry
+
+1. Framing the Problem
+Decide 
+what is exactly problem, 
+what we have to solve, 
+What is cost, 
+Who is customer, 
+How much team members required,
+How end product looks like, 
+ML model is supervised or unsupervised, 
+It is on batch mode or offline mode, 
+Which types of algorithm to be used what is data sources
+
+2. Gathering the data
+Data could be multiple sources
+CSV
+API
+Web Scraping
+Database -> we cant use directly, we make Data Werehouse and ETL process
+Spark - Big cluster
+
+IMP is collecting data and store in correct format
+
+3. Data Preprocessing
+preprocessing means changes before processing data
+
+data may be unstructured, dirty
+we cant pass on this data to ML models, because result not correct
+
+structure issues, missing values, outliers, noisy, 
+can be uncompatible if data is coming from multiple sources, number of columns is different
+remove duplicates,
+scale the values (like one column in thousand and another in crores called standerdization),
+
+4. EDA (Exploratory data analysis)
+experiment with data
+relationship between columns
+visualization
+Univariate analysis (mean, std, curve, avg, max, min)
+Bivariate analysis
+Outlier detection
+imbalance - like if you have image classification problem and you have large cats image but less dog images)
+What is data all about
+spent more time on this
+
+5.Feature Engineering and Selection
+Feature - input columns
+adding columns
+like bedroom, washroom -> area
+remove column that does not impact on output
+
+6. Model Training, Evalution and Selection
+find algorithm that best results
+based on matrics
+we tune the model for better results
+we can mix model for optimized output
+
+7. Model Deployment
+convert model to software so user can use it
+it can be app, website or web app
+
+we make binary file (pickle), and convert API (API - Application Programing Interface - if we give correct input it 
+gives us json)
+user give input by form, this input gets the python app, this app send this input to API, then binary file make 
+prediction based on input and give back json to user UI
+
+8. Testing
+we give app or features to trusted customer
+
+9. Optimize
+- mdel Backup
+- Data backup
+- automation if model break
+- load balancing
+- retrain model
+- frequency of training and automating
+- cost optimization
+
+
+
+
+
+
+
+
+
+
+
