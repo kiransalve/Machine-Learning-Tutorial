@@ -1,0 +1,45 @@
+What is Online Learning?
+
+Online Learning is a machine learning approach where the model learns incrementally, 
+by processing one data point or mini-batch at a time, instead of the whole dataset at once.
+
+It's perfect for situations where:
+
+Data comes in streams (e.g., stock prices, user behavior).
+The dataset is too large to fit into memory.
+You want the model to adapt in real-time.
+
+How it works:
+
+The model starts with initial parameters.
+For each new data point (or small batch), it updates its parameters.
+It learns continuously and can adapt to new patterns.
+
+Advantages:
+
+Real-time learning – ideal for changing environments.
+Works well with large-scale or streaming data.
+Doesn’t require storing all past data (memory efficient).
+
+Disadvantages:
+
+More prone to noise and outliers, especially if the learning rate isn't well tuned.
+Might forget past patterns (called catastrophic forgetting).
+Harder to tune than batch models.
+
+Use Cases:
+
+Fraud detection systems (learning from new frauds as they occur).
+Real-time recommendation engines (Netflix, Amazon etc)
+Clickstream data analysis.
+Self-driving car models.
+
+Comparison: Online Learning vs Batch Learning
+
+| **Feature**         | **Online Learning**               | **Batch Learning**            |
+|---------------------|-----------------------------------|-------------------------------|
+| **Data Handling**   | One-by-one / mini-batch           | Whole dataset                 |
+| **Real-time updates** | Yes                             | No                            |
+| **Adaptability**    | High (learns new trends)          | Low (retrain needed)          |
+| **Memory usage**    | Low                               | High                          |
+
