@@ -1,8 +1,0 @@
-Tensors is basic data structure
-
-It is so important that googles library Tensorflow named from Tensor
-
-It is container, where we store numbers (for 99.99%)
-
-Scalars, Vectors, Matrics are tensor
-

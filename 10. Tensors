@@ -1,0 +1,40 @@
+
+Tensors is basic data structure
+
+It is so important that googles library Tensorflow named from Tensor
+
+It is container, where we store numbers (for 99.99%)
+
+0 dimension - Scalars (2), (3)
+1 dimension - Vectors, 
+2D Matrics are all tensors as general term 
+
+tensors and n-dimensional array are same thing
+
+1d array
+2d array ke andar array
+3d array ke andar array uske andar array
+
+axis means how many dimension you have
+
+suppose 
+a = [1,2,3,4]
+It is one dimension vector 
+it is 1d array
+it is 1d tensor
+
+but how many dimensions it have - 4d
+becasue it has 4 numbers
+
+same 
+b = [3,5,6]
+It is one dimension vector 
+it is 1d array
+it is 1d tensor
+
+but it have 3d dimensions
+
+
+
+
+
