@@ -34,7 +34,18 @@ it is 1d tensor
 
 but it have 3d dimensions
 
+another imporatant thing 
+if we add multiple scalars then we get vectors
 
+if we add "pichhala" dimension then we get next dimension
 
+No. of Rank = No. of Axes = No. of Dimension
+
+Shape means "row me aap maximum kitane item store kar sakte ho aur column me aap maximum kitane item store kar sakte ho"
+
+shape (2,3)
+
+Size is row X cols
+it is total item in tensor
 
 
