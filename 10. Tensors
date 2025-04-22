@@ -85,6 +85,8 @@ and placement is 1d tensor with 10,000 dimensions
 
 we find 3d tensor in NLP 
 
+Example 1
+
 Hi kiran
 Hi ram
 Hi krishna
@@ -106,8 +108,21 @@ Hi krishna - [[1,0,0,0],[0,0,0,1]]
 
 shape - (3, 2, 4)
 
+Example 2
+Timeseries data
+We track high and low of stock for daily for one year
 
+Highest | Lowest
+245        244
+245        243
+246        243
 
+this is 2d tensor
+
+and we have 10 years of data now
+now we have 10 2d tensors
+so we have 3d tensors 
+shape (10, 365, 2)
 
 
 
