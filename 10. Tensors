@@ -36,7 +36,6 @@ but it have 3d dimensions
 
 another imporatant thing 
 if we add multiple scalars then we get vectors
-
 if we add "pichhala" dimension then we get next dimension
 
 No. of Rank = No. of Axes = No. of Dimension
@@ -47,5 +46,73 @@ shape (2,3)
 
 Size is row X cols
 it is total item in tensor
+
+1. 1D Tesnsor
+suppose we have table with iq, cgpa, place and placement for 10,000 students
+so suppose first student have these value like 
+
+iq cgpa place placement
+_______________________
+91  8.1  WB    Yes
+_______________________
+
+so we can write input columns - [91, 8.1, 0]
+
+we taken 0 for WB value
+
+if another student
+
+iq cgpa place placement
+_______________________
+60  4.1  MH    No
+_______________________
+
+input columns - [60, 4.1, 1]
+
+we take MH as 1 (called label encoding)
+
+so these input columns are 1d tensors
+and has 3 dimension
+
+so we have 10,000 vectors with 1d tensors with each vector has 3 dimensions
+
+2. 2D tesnors
+
+if we take collection of 10,000 vectors and store them in matrix then it is 2d tensors
+and placement is 1d tensor with 10,000 dimensions
+
+3. 3D tensor
+
+we find 3d tensor in NLP 
+
+Hi kiran
+Hi ram
+Hi krishna
+
+vectorization ->
+Hi kiran ram krishna
+1   0     0    0
+0   1     0    0
+0   0     1    0
+0   0     0    1
+
+Hi kiran - [[1,0,0,0],[0,1,0,0]]
+Hi ram - [[1,0,0,0],[0,0,1,0]]
+Hi krishna - [[1,0,0,0],[0,0,0,1]]
+
+[ [[1,0,0,0],[0,1,0,0]],
+ [[1,0,0,0],[0,0,1,0]],
+ [[1,0,0,0],[0,0,0,1]] ]
+
+shape - (3, 2, 4)
+
+
+
+
+
+
+
+
+
 
 
