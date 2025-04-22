@@ -125,9 +125,29 @@ so we have 3d tensors
 shape (10, 365, 2)
 
 
+4. 4D Tensor 
 
+In computer vision and deep learning, the most common 4D tensor format is
+(batch_size, channels, height, width)
 
+Each dimension means:
 
+Batch size – number of images processed at once.
+Channels – 3 for RGB, 1 for grayscale.
+Height – image height in pixels.
+Width – image width in pixels.
 
+Example
 
+Let’s say you have:
+A batch of 10 RGB images
+Each image is of size 64x64
+Then the 4D tensor shape will be:
+
+(10, 3, 64, 64)
+
+10 → number of images (batch size)
+3 → RGB channels
+64 → height
+64 → width
 
