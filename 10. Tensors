@@ -151,3 +151,37 @@ Then the 4D tensor shape will be:
 64 → height
 64 → width
 
+5. 5d tensors
+
+A 5D tensor is a five-dimensional data structure. 
+
+4D tensor is like a collection of images, which
+crossed from our eyes with more than 12 images per seconds,
+our eyes interprete it as video 
+
+In deep learning (especially video processing or volumetric data), the shape of a 5D tensor is usually:
+
+(batch_size, channels, depth, height, width)
+
+Where:
+batch_size: number of video clips or samples
+channels: like RGB (3 channels) or grayscale (1 channel)
+depth: number of frames in a video (or slices in 3D scan)
+height: image height
+width: image width
+
+Example: Video Data
+
+Let’s say you have:
+8 videos (batch_size)
+Each video is 10 frames long (depth)
+RGB (3 channels)
+Each frame is 64x64 pixels
+Then the tensor shape would be:
+
+(8, 3, 10, 64, 64)
+
+tensor[0] → First video
+tensor[0, 1] → Green channel of first video
+tensor[0, 1, 5] → 6th frame of green channel of first video
+tensor[0, 1, 5, 20, 30] → Pixel at row 20, column 30 in 6th frame of green channel of first video
