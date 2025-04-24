@@ -1,0 +1,60 @@
+1. Business Problem to ML Problem
+
+Netfilx 
+
+We are lead Data scientist
+there are meeting how to increase revenue 
+all the CEO, CFO are present
+I am seating meeting, and they ask you to how to boost revenue
+
+1. New Customer by marketing
+2. More charge on existing customer
+3. retain customer who left (reduce churn rate)
+
+churn rate means in given time frame how many customers are left the platform
+suppose 100 customer are there and churn rate is 2% monthly,
+means 2 customer monthly leave the platform so it becomes 98
+
+to eise to monthly 2% kam hoke pure customer left ho jayenge
+to eisa nahi hai, new customer bhi judte hai
+aur new customer rate is always greater than chaurn rate
+
+it is like birth rate and death rate
+if death rate is more then population is less
+if birth rate is more then population is also more
+
+
+so my task is to reduce churn rate
+if i successfully stop them to left, i get revenue from them
+
+so Business Problem is Increase Revenue
+and we converted it to ML problem to - Reduce Churn Rate (like 2% to 1.75%)
+
+your first instict should be how to convert it to mathamatical problem
+
+
+2.Type of Problem
+
+see big picture
+what will be the end product
+what type of problem we are solving 
+
+what we can do, is we give discount who are leaving the platform for next month
+their is probability if we give discount then customer not leave 
+so here we have find out the problem that who are leaving and who are not 
+so it is classification problem where output is yes or no
+
+but then we can think that all are not same
+
+some customer are more eager to leave the platform, some are not
+so we need score from 0 to 100 that gives us sentiment 
+that how much customer eager to leave
+
+so now it is regression problem where our output is no.
+
+3.Current Solution
+if in past someone done this type of work 
+you can take that and refine instead start from scratch
+
+4.Getting data
+
