@@ -31,7 +31,7 @@ so Business Problem is Increase Revenue
 and we converted it to ML problem to - Reduce Churn Rate (like 2% to 1.75%)
 
 your first instict should be how to convert it to mathamatical problem
-
+If we reduce monthly churn from 2% → 1.75%, it significantly boosts revenue without extra customer acquisition cost.
 
 2.Type of Problem
 
@@ -57,4 +57,35 @@ if in past someone done this type of work
 you can take that and refine instead start from scratch
 
 4.Getting data
+
+Watch time - how much time he is browsing and how much time on actually watching video
+if he spent much time on browsing it means he not found what he is looking for
+if he spent time on streaming that is fine, it is good 
+
+search but not found
+how much he search and he not found
+
+how many time left content in middle
+it means your content is not that quality to attach customer for long time
+
+clicked on recommendation
+
+5.Matrics to measure
+it is north star so it will guide you that you are going on right direction or not
+
+Reduce Churn	- Monthly churn rate (e.g., from 2% to 1.75%)
+Model Performance	- AUC-ROC, Precision/Recall, F1 Score
+Business Impact -	Revenue gained from saved customers
+
+6. Online and Batch learning
+
+Batch Learning - Train on past 6 months’ data, update weekly/monthly
+
+Online Learning -	Continuously update model as new data arrives (ideal for real-time personalization)
+
+7.Check assumption
+
+Do customer behaviors differ by geography?
+Yes. Viewing habits in India vs USA are very different.
+Solution: Train separate models or include region/country as a feature.
 
