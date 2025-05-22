@@ -23,7 +23,15 @@ STD - sigma
 
 new age' columns have mean - 0 and STD - 1
 
-https://editor.analyticsvidhya.com/uploads/157194.png
+![157194](https://github.com/user-attachments/assets/35b95fc2-d876-436c-b531-d49831e4b3a0)
+
+pure data ko utha ke x aur y axis ke bich me rakhata hai
+
+this is called "Mean Centering"
+
+agar STD 1 se jyada hai, to ye data ko ander ki taraf dabata hai
+agar STD 1 se kam hai, to ye data ko bahar ki taraf dhakelta hai
+
 
 
 
