@@ -1,6 +1,8 @@
 Feature Scaling is a technique used to normalize the range of independent variables (features) in your dataset. 
 It ensures that all features contribute equally to the model's performance.
 
+Agar data ke numerical columns me ek column ki range bahot jyada aur dusare ki bahut kam hai to un dono columns ko ek range me lana.
+
 E.g.
 If we have Age and Salary columns in our dataset, 
 age is limited to 60 or 90 max.
