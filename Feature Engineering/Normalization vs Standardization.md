@@ -17,3 +17,9 @@
 | --------------- | --------------------------------------------------- | -------------------------------------------------------- |
 | **When to Use** | When you know the data is bounded or in fixed range | When data is Gaussian (normal distribution) or unbounded |
 | **Examples**    | Image pixel values (0–255), sensor readings         | Height, weight, salary, scores, z-scores, etc.           |
+
+4. Algorithm Sensitivity
+   
+| Feature         | Affects which algorithms?                                                             |
+| --------------- | ------------------------------------------------------------------------------------- |
+| **Both** affect | Distance-based models like **KNN**, **SVM**, **Logistic Regression**, **Neural Nets** |
