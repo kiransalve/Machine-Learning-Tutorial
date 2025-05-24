@@ -28,10 +28,7 @@
 
 Let’s say:
 
-𝑋
-=
-70
-X=70
+X = 70
 
 Min = 50, Max = 100
 
@@ -42,3 +39,12 @@ Mean = 65, Std Dev = 10
 | Normalization   | $(70 - 50) / (100 - 50) = 20 / 50 = 0.4$ | 0.4    |
 | Standardization | $(70 - 65) / 10 = 5 / 10 = 0.5$          | 0.5    |
 
+
+Summary
+
+| Feature              | Normalization    | Standardization             |
+| -------------------- | ---------------- | --------------------------- |
+| Range                | \[0, 1]          | Mean = 0, Std Dev = 1       |
+| Affected by outliers | Yes              | Less sensitive              |
+| Best for             | Bounded features | Gaussian/unbounded features |
+| Formula              | Min-Max Scaling  | Z-Score                     |
