@@ -48,3 +48,10 @@ Summary
 | Affected by outliers | Yes              | Less sensitive              |
 | Best for             | Bounded features | Gaussian/unbounded features |
 | Formula              | Min-Max Scaling  | Z-Score                     |
+
+
+
+
+![stand vs norm 1](https://github.com/user-attachments/assets/8ee22cb8-623b-4714-8487-a4cac96e4ab2)
+
+
