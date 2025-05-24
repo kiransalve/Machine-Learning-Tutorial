@@ -10,3 +10,10 @@
 | Feature   | Normalization   | Standardization                      |
 | --------- | --------------- | ------------------------------------ |
 | **Range** | Usually \[0, 1] | Mean = 0, Std Dev = 1 (range varies) |
+
+ 3. Use Case
+
+| Feature         | Normalization                                       | Standardization                                          |
+| --------------- | --------------------------------------------------- | -------------------------------------------------------- |
+| **When to Use** | When you know the data is bounded or in fixed range | When data is Gaussian (normal distribution) or unbounded |
+| **Examples**    | Image pixel values (0–255), sensor readings         | Height, weight, salary, scores, z-scores, etc.           |
