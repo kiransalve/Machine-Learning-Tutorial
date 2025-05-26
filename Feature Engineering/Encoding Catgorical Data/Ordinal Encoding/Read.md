@@ -5,21 +5,12 @@ Numerical and Categorical
 Categorical data has two types
 
 Nominal - States, Gender,Blood group, Department, City name, Product names
+
 Ordinal - Education (School, Degree, PHD), Grade Class (1st Class, 2nd Class, Fail), Size (S, M, L)
 
 If Y (output column) is categorical (Yes/No) type we use label encoding.
 
 Ordinal Encoding is a technique used to convert ordinal categorical data into integers that reflect their natural order.
-
-When to Use:
-
-Use Ordinal Encoding when:
-
-The categories have a clear ranking
-
-You want to maintain the order in a machine learning model
-
-Let’s take an ordinal feature:
 
 Customer Satisfaction
 
