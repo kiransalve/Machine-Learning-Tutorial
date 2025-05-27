@@ -40,3 +40,14 @@ When your model is assuming normality (like in Linear Regression).
 When outliers dominate the learning process.
 
 
+Note That :
+
+Don't apply log to negative values (unless you shift the scale).
+
+Interpretability can be affected – predictions are now in log scale.
+
+Apply inverse transformation (np.expm1) to bring predictions back to original scale.
+
+When you want to get the predicted value back to its original scale:
+
+original_value = np.expm1(log_transformed_value)
