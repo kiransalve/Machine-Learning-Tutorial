@@ -6,6 +6,7 @@ not usefull for -ve value
 
 if you have right skewed data it is better transform
 
+It make very big value in common scale (equidistant)
 
 ![5aa77370-e302-4e19-b400-93292f472b62_3720x3184](https://github.com/user-attachments/assets/0030d356-724c-492c-88ea-4972ab7e2398)
 
