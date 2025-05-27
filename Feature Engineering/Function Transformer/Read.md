@@ -21,3 +21,12 @@ How to find data is normal?
 3. QQ plot
 
    
+It's particularly helpful when your data has a long tail or exponential growth, which is common in real-world scenarios like:
+
+Sales amount
+
+Population
+
+Income
+
+Web traffic
