@@ -21,4 +21,8 @@ i.KNN Imputer
 ii.Iteration Imputer
 
 
+Complete case analysis (CCA), also called "list-wise deletion" of cases, consists in discarding observations
+where values in any of variables are missing
+
+Complete case analysis (CCA), means literally analysing only those observation for which there is information in all of the variable in dataset
 
