@@ -33,5 +33,5 @@ Can lead to biased results if the missingness is not random.
 
 Not suitable if missing data is common or systematic.
 
-In production if missing data occurs, your model will crash, because you didn't train it for handling missing data
+In production if missing data occurs, your model will not perform, because you didn't train it for handling missing data
 
