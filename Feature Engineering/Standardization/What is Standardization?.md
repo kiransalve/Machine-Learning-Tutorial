@@ -1,24 +1,31 @@
-Feature Scaling is a technique used to normalize the range of independent variables (features) in your dataset. 
-It ensures that all features contribute equally to the model's performance.
-
-Agar data ke numerical columns me ek column ki range bahot jyada aur dusare ki bahut kam hai to un dono columns ko ek range me lana.
-
-E.g.
-If we have Age and Salary columns in our dataset, 
-age is limited to 60 or 90 max.
-but salary is starting from 10,000 to 10,00,000 
-when we plot graph, salary range will dominate
-feature scaling make both in one scale - like  [0, 1] or [-1,1]
-
-Two methods - 
-Standardization and Normalization
-
 Standardization - 
+
 also known as Z-score Normalization
+
+Why is it called Z-score normalization?
+
+Because we change each number to a Z-score, which tells:
+
+"How far is this number from the average?"
+
+What is a Z-score?
+
+A Z-score tells you how far a number is from the average, using standard units.
+
+Think of it like this:
+
+Imagine your class has an average test score of 60 marks, and most students scored between 50 and 70.
+
+If you got 75, the Z-score tells:
+
+"How far is 75 from the average score of 60?"
 
 suppose we have Age column,
 we transform each value by below formula
-Xi' = Xi - mean / STD
+
+
+![stand](https://github.com/user-attachments/assets/8abb2119-f3db-42d0-9773-bff316723202)
+
 
 mean - mu
 STD - sigma
