@@ -1,31 +1,6 @@
 Normalization is a feature scaling technique that rescales data to a fixed range — typically between 0 and 1
 
-We have suppose height and weight columns 
-
-height is in cm and weight is in kgs
-
-height can be in inches, m or feet
-weight also can be lbs, pound
-
-so each value have magnitude and unit
-
-we need to eliminate units
-and make both columns at common scales
-
 Min Max scaling is most used technique
-
-Why do we do this?
-
-Because some columns in your data may have:
-
-Small numbers like age (like 11, 20, 35)
-
-Big numbers like salary (like 10,000, 50,000, 1,00,000)
-
-If we use them together in machine learning, the big numbers will dominate the small ones.
-
-Normalization makes them all equally important.
-
 
 # 🚗 ML Problem: Predicting Car Insurance Risk
 
