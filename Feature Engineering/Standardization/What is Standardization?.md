@@ -20,7 +20,41 @@ If you got 75, the Z-score tells:
 
 "How far is 75 from the average score of 60?"
 
+In simple words:
+
+Z = 0 → You are exactly average
+
+Z = +1 → You are 1 step above average
+
+Z = -2 → You are 2 steps below average
+
+
+What is Standard Deviation?
+
+Standard deviation tells us how spread out or how far away the numbers in a group are from the average
+
+Think of it like this:
+
+If your class test scores are all very close to each other (like 60, 62, 61, 59), the standard deviation is small because the scores don’t vary much.
+
+But if the scores are very different (like 30, 70, 90, 40), the standard deviation is big because the scores are spread out a lot.
+
+Small standard deviation means most numbers are close to the average.
+
+Large standard deviation means the numbers are very spread out.
+
+Standard deviation = How much the numbers “move away” from the average on average.
+
+In short:
+
+Standard deviation = 2 → Most data points are about 2 units away from the average.
+
+It's a measure of spread: smaller value = less spread, larger value = more spread.
+
+
+
 suppose we have Age column,
+
 we transform each value by below formula
 
 
@@ -28,6 +62,7 @@ we transform each value by below formula
 
 
 mean - mu
+
 STD - sigma
 
 new age' columns have mean - 0 and STD - 1
