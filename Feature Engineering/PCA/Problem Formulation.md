@@ -61,4 +61,4 @@ to solve this problem we required high level of maths, so we ommit it and direct
 before that we need to understand two mathamatical concept - 
 
 
-# Covariance and Eigan Value
+-> Covariance and Eigan Value
