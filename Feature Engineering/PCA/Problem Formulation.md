@@ -90,3 +90,25 @@ variance may be similar for below type of data
 we need what is relation between x and y
 
 Covariance is calculated by taking the average of the product of the deviations of each variable from their respective means.
+
+🤝 Simple Intuition:
+
+If both variables increase together, covariance is positive.
+
+If one increases while the other decreases, covariance is negative.
+
+If the variables are independent, covariance is zero or near zero.
+
+📊 Real-Life Analogy:
+
+Imagine you're tracking:
+
+Hours studied 📚
+
+Exam score 📝
+
+If students who study more generally score higher, then the covariance between hours studied and exam scores is positive.
+
+![22](https://github.com/user-attachments/assets/007f7fe8-2f39-4f3a-8970-a5b5f98a4f83)
+
+
