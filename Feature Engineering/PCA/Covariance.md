@@ -46,4 +46,6 @@ If students who study more generally score higher, then the covariance between h
 
 ![22](https://github.com/user-attachments/assets/007f7fe8-2f39-4f3a-8970-a5b5f98a4f83)
 
+Read for Covariance Matrix -
 
+https://github.com/kiransalve/Machine-Learning-Tutorial/blob/main/Feature%20Engineering/PCA/Covariance%20Matrix.md
