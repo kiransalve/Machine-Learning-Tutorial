@@ -52,3 +52,12 @@ that means uske direction me koi change nahi aa raha, uske scale me change aa ra
 and this relationship always True for eigen vector.
 
 
+IN PCA context,
+
+The largest eigen vector of covariance matrix always points into the direction of the largest variance of data
+
+The eigen vector comes from origin, why, because linear transformations act from the origin.
+
+Read Solution 
+
+https://github.com/kiransalve/Machine-Learning-Tutorial/blob/main/Feature%20Engineering/PCA/Solution.md
