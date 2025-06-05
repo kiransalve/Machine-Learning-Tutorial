@@ -16,5 +16,8 @@ It transforms high-dimensional data into a lower-dimensional space while retaini
 
 🧠 PCA - Working
 
-PCA find the new set of axes by rotating the current axes
+PCA find the new set of axes by rotating the current axes, such that the variance of that vector is maximum.
 
+Read This for Problem Formulation -
+
+https://github.com/kiransalve/Machine-Learning-Tutorial/blob/main/Feature%20Engineering/PCA/Problem%20Formulation.md
