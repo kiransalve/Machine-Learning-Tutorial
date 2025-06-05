@@ -1,0 +1,28 @@
+Suppose we have f1, f2, f3 features,
+
+step 1 - mean centering
+
+![meancenter](https://github.com/user-attachments/assets/6d32870a-51d5-4b04-b4a0-4a162faf83db)
+
+
+step 2 - find covariance matrix
+
+![26](https://github.com/user-attachments/assets/a4c8fd14-3585-4087-8b1b-97188cc6b32e)
+
+
+step 3 - find the Eigen Vector and Eigen Value for covarience matrix
+
+![eign](https://github.com/user-attachments/assets/6cf8ff37-609a-4157-907f-a51985ef1862)
+
+for 2D - 2 Eigen vector and Eigen Values
+
+for 3D - 3 Eigen vector and Eigen Values and so on
+
+these values says the perticular direction lambda 1, lambda2 and lambda 3
+
+and lambda 1 is our PC 1, lambda 2 is PC 2 and lambda 3 is PC 3
+
+and we have to choose to come from 3D to PC1 and PC2 (2D) or only PC1 (1D)
+
+
+
