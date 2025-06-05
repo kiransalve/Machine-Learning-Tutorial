@@ -28,3 +28,6 @@ Negative values: one increases while the other decreases
 
 Zero: variables are independent
 
+Read Eigen decomposition, Eigen Vector and Eigen Value
+
+https://github.com/kiransalve/Machine-Learning-Tutorial/blob/main/Feature%20Engineering/PCA/Eigen%20Decomposition%2Cmd
