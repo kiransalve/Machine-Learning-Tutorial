@@ -62,3 +62,6 @@ before that we need to understand two mathamatical concept -
 
 
 -> Covariance and Eigan Value
+
+https://github.com/kiransalve/Machine-Learning-Tutorial/blob/main/Feature%20Engineering/PCA/Covariance.md
+
