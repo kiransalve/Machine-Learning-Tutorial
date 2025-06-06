@@ -51,6 +51,18 @@ because if there is perfect line, that passes through all data point, and there 
 
 so the best fit line has some error with respective to each line (Har data-points se kam jyada distance hai)
 
+we can get it from 
+
+from sklearn.linear_model import LinearRegression
+
+model = LinearRegression()
+
+# m = slope (coefficient)
+model.coef_
+
+# b = intercept
+model.intercept_
+
 If we have d distance from line for each point, (or we can say error made by line to cross data points)
 
 like d1, d2, d3,....., dn
