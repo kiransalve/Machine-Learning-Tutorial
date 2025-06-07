@@ -68,3 +68,19 @@ This 10 minutes is your MAE — how far off you are on average, regardless of di
 
 ![mae3](https://github.com/user-attachments/assets/729de062-0ade-47b8-abe8-d22541af4f54)
 
+Our job is to reduce this no.
+
+Advantage 
+
+The no. is exactly unit of y (like lpa, sales rs, minutes etc)
+
+Robust to outlier less effect
+
+Disadvantage
+
+modulus function's graph is not differential at zero, it is biggest gap
+
+when we use algorithm like gradient descent, it fails
+
+This problem solved by MSE - Mean Square Error
+
