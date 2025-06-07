@@ -38,3 +38,28 @@ and that means our lr line not making any mistakes, goes through every data poin
 
 that means when our model performance is well, it moves towards 1 and 
 that means when our model performance is worst it moves towards 0
+
+if r2 score is negetive
+
+dub ke mar jao
+
+that means your lr model is worst than mean
+
+if r2 score is 0.80
+
+if cgpa and package columns are there
+
+that means cgpa explain 80% variance of lpa 
+
+means there are some have package of 1.8 some have 3.4 and some have 5.2
+
+so why is this variation
+
+so cgpa explains 80% variation, and other 20% is stochastics error, that are not measurable like interview bura gaya, company achchi thi, iq achcha tha etc
+
+Problem in R2 score
+
+if we add more input column, the r2 score increases
+
+but if we add irrelevant columns then also r2 score increases or stable, ideally it should descrease
+
