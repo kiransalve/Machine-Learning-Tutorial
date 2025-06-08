@@ -1,3 +1,7 @@
+---------------- Multiple Linear Regression -----------------
+
+Multiple Linear Regression is a method used to predict a value based on two or more inputs (factors or features).
+
 Multiple Linear Regression is extended version of Simple Linear Regression
 
 Where in Simple Linear Regression we have one input and one output column, 
@@ -24,12 +28,29 @@ for every n input column we have n + 1 coefficient
 so if you have 3 input columns then we drow hyper plan, (for infinite column it called hyper plan only)
 
 For 2 input columns,
-
-y = mx1 + mx2 + b, (we have find minimum values of m and b)
+          
+y = mx1 + mx2 + b, (we have to find minimum values of m and b)
 
 we can write,
 
-y = Bo + B1x1 + B2x2 (we have to find value of Bo, B1, B2)
+![ml1](https://github.com/user-attachments/assets/aab5d0fd-1541-41a2-8ff7-a46b6e758e9e)
+
+![ml2](https://github.com/user-attachments/assets/d4dfa441-d6bd-4c2b-a639-6a7904bf02e2)
+
+
+🧠 Human Intuition (with β)
+
+Imagine:
+
+"I want to predict your monthly expenses based on income (x₁), number of children (x₂), and location cost index (x₃)."
+
+The equation becomes:
+
+![ml3](https://github.com/user-attachments/assets/da63de02-167f-4c13-b045-1184c7c0f2b7)
+
+![ml4](https://github.com/user-attachments/assets/7fa10fcc-c7a0-407c-9d49-731b967d0e73)
+
+
 
 for 3 input columns,
 
