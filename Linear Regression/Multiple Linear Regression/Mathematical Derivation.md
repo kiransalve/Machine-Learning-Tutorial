@@ -50,8 +50,6 @@ The equation becomes:
 
 ![ml4](https://github.com/user-attachments/assets/7fa10fcc-c7a0-407c-9d49-731b967d0e73)
 
-
-
 for 3 input columns,
 
 y = Bo + B1x1 + B2x2 + B3x3 (we have to find value of Bo, B1, B2, B3)
@@ -61,150 +59,16 @@ for n input columns,
 y = Bo + B1x1 + B2x2 + ... + Bnxn
 
 Or we can write 
-          n
-y = Bo +  ∑ Bixi
-         i=1
+
+Multiple Linear Regression — Summation Form
+
+![ml5](https://github.com/user-attachments/assets/48dbd5fa-580b-4626-ae09-387219ed86a5)
+
+![ml6](https://github.com/user-attachments/assets/d705a22c-e401-48e8-b65b-543bf73832d1)
 
 this will give us that our predicted value is how much depend upon the input columns
 
-like is iq matters in package, if iq value is low then salary goes low or not?
-if we have m columns and n students
-matrix - 
-   
-|ŷ1|    |Bo   B1x11  B2x12  ...  Bmx1m |
-|ŷ2|    |Bo   B1x21  B2x22  ...  Bmx2m |
-|..|  = |...                           |
-|..|    |...                           |
-|ŷn|    |Bo   B1xn1  B2xn2  ...  Bmxnm |
+like iq ka kitna hath hai package badhane me , gender kitna matter karta hai package ke liye...
 
-|ŷ1|    |1 x11  x12  ...  x1m |  | Bo |
-|ŷ2|    |1 x21  x22  ...  x2m |  | B1 |
-|. |  = |. ...                |  | B2 |
-|. |    |. ...                |  | .. |
-|ŷn|    |1 xn1  xn2  ...  xnm |  | Bm |
-
-By Matrix rule 
-A B = AB
-
-means first row of first matrix into whole second matrix 
-and then so on
-
-we can say 
-
-ŷ = XB
-
-Now we have y_train in data sets
-
-    | y1 |
-    | y2 |
-Y = | .. |
-    | .. |
-    | yn |
-          
-
-now we have error matrix
-
-e = y - ŷ
-
-  | y1 |   | ŷ1 |
-  | y2 |   | ŷ2 |
-= | .. | - | .. |
-  | .. |   | .. |
-  | yn |   | ŷn |
-
-  | y1 - ŷ1 |
-  | y2 - ŷ2 |
-= |    ..   |
-  |    ..   |
-  | yn - ŷn |
-
-
-for single linear regression,
-    n
-E = Σ yi - ŷi
-   i=1
-
-we have to prove,
-
-E = eTe
-
-(T means transpose and B means Beta)
-
-=[(y - ŷ)T (y - ŷ)
-
-=(yT - ŷT)(y - ŷ)
-
-=[yT - (xB)T) (y - xB)
-
-=yTy - yTxB - (xB)Ty + (xB)T xB ....(1)
-
-Detour
-
-yTxB = (xB)Ty ....to prove
-
-suppose 
-y = A and xB = B
-
-ATB = BTA
-
-we know (AB)T = BTAT and (AT)T = A
-
-(ATB)T = BTA
-
-so we have to prove
-
-ATB = (ATB)T
-
-suppose ATB = C
-
-C = CT
-
-we need to prove 
-
-(yTxB)T = yTxB
-
-take the shape of (yTxB)
-
-((1 X n) (n X (m + 1)) ((m + 1) X 1)
-
-1 X (m + 1) (m + 1) X 1 
-
-1 X 1
-
-it is matrix like [ 7 ]
-
-and [ 7 ]T is [ 7 ]
-
-so proved
-
-put this value in equetion (1)
-
-
-=yTy - 2 yTxB + (xB)T xB
-
-=yTy - 2 yTxB + xTBTxB
-
-to get minimum value, we differentiate,
-
-dE/dB = d/dB(yTy - 2 yTxB + xTBTxB)
-
-= 0 - 2 yTx + d/dB(BTXTXB) = 0
-
-= - 2 yTx + 2 xTxBT = 0
-
-2 yTx = 2 xTxBT 
-
-2 cancelled out
-
-BT = yTx(xTx)-1 (inverse)
-
-transpose both side
-
-(BT)T = [ yTx (xTx)-1 ]T
-
-
-B =  ((xTx)-1)T (yTx)T
-
-B = ((xTx)-1)T xT
-
+if beta 1 is greater than beta 2 then we can say cgpa is matter more than iq to predict package
 
