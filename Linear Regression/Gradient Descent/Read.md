@@ -12,7 +12,44 @@ Repeating this step iteratively until the algorithm converges to a minimum (idea
 
 ![gd1](https://github.com/user-attachments/assets/cf8c107d-4a78-4445-8140-f9d82098451a)
 
-Add Practical Relevance
- 
-For example, in linear regression, gradient descent helps find the best-fit line by minimizing the difference between predicted and actual values
+What is the role of the learning rate in gradient descent?
+
+The learning rate (α) controls how big the steps are in each iteration. 
+
+If it is,
+
+Too low: The model learns very slowly, requiring many iterations to converge.
+
+Too high: The model may oscillate or diverge, never reaching the minimum.
+
+What do we mean by convergence in gradient descent? How do we know it has converged?
+
+Convergence means the loss function stops decreasing significantly with each iteration. 
+
+We check convergence by monitoring:
+
+Change in cost function < small threshold (like 0.0001)
+
+Gradient close to zero
+
+Fixed number of iterations (if using early stopping)
+
+What are the differences between Batch, Stochastic, and Mini-Batch Gradient Descent?
+
+| Type                 | Description               | Pros                        | Cons                    |
+| -------------------- | ------------------------- | --------------------------- | ----------------------- |
+| **Batch**            | Uses entire dataset       | Stable, accurate            | Slow on large data      |
+| **Stochastic (SGD)** | One data point per update | Fast, escapes local minima  | Noisy updates           |
+| **Mini-Batch**       | Small subset per update   | Balance of speed & accuracy | Needs tuning batch size |
+
+
+Can gradient descent get stuck in a local minimum? How do we handle that?
+
+Yes, especially in non-convex functions. 
+
+To handle it:
+
+Use Stochastic Gradient Descent, which introduces noise and helps escape local minima.
+
+Use momentum or advanced optimizers like Adam.
 
