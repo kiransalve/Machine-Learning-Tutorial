@@ -33,3 +33,18 @@ Model overfits training data (memorizes it).
 
 Example: A 10-degree polynomial that passes through every point.
 
+Overfitting
+
+Take every data point seriously, and great result on training data
+
+passed through every data point - called overfitting
+
+it is like a student that do ratta 
+
+Underfitting
+
+Take very casually, not try to pass every data point, not good result on training data
+
+it is like student who bunk class and dont study
+
+
