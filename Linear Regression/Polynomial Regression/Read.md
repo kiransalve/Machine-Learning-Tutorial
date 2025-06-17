@@ -2,7 +2,7 @@
 
 https://www.tutorialspoint.com/machine_learning/machine_learning_polynomial_regression.htm
 
-![linear_vs_polynomial_regression](https://github.com/user-attachments/assets/ed3cd499-a50f-4b09-9b48-3f8f9a52185b)
+![sddefault](https://github.com/user-attachments/assets/30bf2dc4-b25a-4610-ba0a-84e88693e1dd)
 
 Polynomial Regression is a type of linear regression where the relationship between the independent variable x and 
 the dependent variable y is modeled as an nth-degree polynomial. 
