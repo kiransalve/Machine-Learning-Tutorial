@@ -43,3 +43,38 @@ Calculate error
 Update the parameters using the gradient of that one example
 
 
+✅ Advantages:
+
+Fast and memory efficient (especially with large datasets)
+
+Good for online learning (data streams in real-time)
+
+Helps escape local minima due to its noisy updates
+
+❌ Disadvantages:
+
+Noisy convergence — the path is not smooth
+
+May require more epochs to converge
+
+Needs good learning rate tuning
+
+🆚 Comparison Table:
+
+| Feature                     | Batch GD          | SGD               |
+| --------------------------- | ----------------- | ----------------- |
+| Data per update             | All examples      | 1 example         |
+| Update frequency            | Low               | High              |
+| Convergence speed           | Slower (per step) | Faster (per step) |
+| Convergence quality         | Smooth            | Noisy (bouncy)    |
+| Suitable for large datasets | ❌                 | ✅                 |
+
+
+✅ Use Cases:
+
+Huge datasets (e.g., image classification, NLP)
+
+Online learning systems (recommendations, ads)
+
+Real-time model updates
+
