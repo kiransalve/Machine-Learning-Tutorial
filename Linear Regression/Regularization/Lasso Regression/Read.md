@@ -1,3 +1,8 @@
+LASSO (Least Absolute Shrinkage and Selection Operator)
+
+Lasso also has a way to reduce the importance of certain factors to zero, 
+which makes it useful for two main tasks: making predictions and identifying the most important features.
+ 
 Lasso Regression is a type of linear regression that uses L1 regularization.
 
 It adds a penalty equal to the absolute value of the coefficients, which helps the model reduce some coefficients to zero.
