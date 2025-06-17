@@ -1,5 +1,11 @@
 ### Stochastic Gradient Descent
 
+Single row dekh ke update krna
+
+agar aapke pas n rows hai to 1 epoch ke liye aap n update karenge
+
+
+
 https://alanwiseblog.wordpress.com/2018/02/04/how-to-descend-a-hill/
 
 ![stochastic](https://github.com/user-attachments/assets/c6526b64-3411-45e1-be17-0b34dc397fdd)
