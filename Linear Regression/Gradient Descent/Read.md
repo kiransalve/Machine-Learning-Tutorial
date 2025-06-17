@@ -53,3 +53,4 @@ Use Stochastic Gradient Descent, which introduces noise and helps escape local m
 
 Use momentum or advanced optimizers like Adam.
 
+https://towardsdatascience.com/gradient-descent-clearly-explained-in-python-part-2-the-compelling-code-c21ee26fbc28/
