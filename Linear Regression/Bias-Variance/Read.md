@@ -1,8 +1,14 @@
 
 ![hq720](https://github.com/user-attachments/assets/c59b36ba-a3f4-4040-afce-ca4ee20e4089)
 
+### Bisa
+
+![bias](https://github.com/user-attachments/assets/5403382d-a45a-4cfd-a5ff-ca939d0a4d5f)
 
 Bias is the error caused by using a simple model that cannot capture the real pattern in the data — it leads to underfitting.
+
+
+### Variance
 
 Variance is the error caused when a model learns even the noise in training data — it leads to overfitting.
 
