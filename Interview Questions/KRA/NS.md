@@ -5,10 +5,15 @@ paired with a strong understanding of statistical concepts and data-driven probl
 KR
 
 · Develop and implement machine learning models for regression and classification use cases.
+
 · Analyze data using statistical methods to extract insights and support business decisions.
+
 · Perform feature engineering and data preprocessing.
+
 · Evaluate models using appropriate metrics (e.g, RMSE, AUC, Precision, Recall, F1-score).
+
 · Collaborate with cross-functional teams to deploy and monitor ML models in production.
+
 · Document processes, methodologies, and results clearly for internal knowledge sharing.
 
 Mandatory Requirements
@@ -24,7 +29,9 @@ Mandatory Requirements
 Preferred Qualifications
 
 · Exposure to ML frameworks like Scikit-learn, XGBoost, TensorFlow, or PyTorch
+
 · Experience with data visualization libraries (Matplotlib, Seaborn, Plotly)
+
 · Knowledge of MLOps concepts and tools
 
 Soft Skills
