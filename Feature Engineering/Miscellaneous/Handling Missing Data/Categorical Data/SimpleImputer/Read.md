@@ -1,3 +1,5 @@
+```text
+
 1. Imputation with Mode (Most Frequent Value)
 
 Replace missing values with the most frequent category.
@@ -31,3 +33,6 @@ df['Category'] = df['Category'].fillna('Other')
  Always create a new column indicating missingness before imputation. It can be useful for modeling.
 
  df['Category_missing'] = df['Category'].isnull().astype(int)
+
+
+```
