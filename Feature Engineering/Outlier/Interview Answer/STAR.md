@@ -1,6 +1,8 @@
+# What is Oulier?
+
 An outlier is a value that is very different from the rest of the data.
 
-# It is much higher or lower than most of the other numbers.
+It is much higher or lower than most of the other numbers.
 
 Suppose we have group of freinds and we have salary discussion, some have 40,000, some have 30,000, some have salary 35,000 and in 
 our group Elon musk entered, so average of our salary is go much higher.
