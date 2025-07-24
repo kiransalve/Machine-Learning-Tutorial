@@ -14,7 +14,41 @@ To find these outlier i used boxplot like
 
 sns.boxplot(x=df["Sales"])
 
-What is a Box Plot?
+----> What is a Box Plot?
 
+Box plot also known as Box-and-Whisker plot
 
+Box Represent :
+
+The rectangular box represents the interquartile range (IQR) — the middle 50% of the data.
+
+The left edge of the box is the first quartile (Q1) (25th percentile).
+
+The right edge of the box is the third quartile (Q3) (75th percentile).
+
+A line inside the box shows the median (Q2).
+
+Whiskers represent :
+
+The lines extending from both sides of the box
+
+They typically go from:
+
+Q1 to the smallest value within the acceptable range (i.e., not considered an outlier).
+
+Q3 to the largest value within the acceptable range.
+
+Small Circles represents :
+
+Points beyond the whiskers are considered outliers.
+
+I also finds the oulier using statistical methods like IQR method and Z score method
+
+---> What is IQR Method
+
+IQR (Interquartile Range) is the range between the first quartile (Q1) and the third quartile (Q3).
+
+To find it we subtract the 3rd Quartile by 1st Quartile
+
+IQR = Q3 − Q1
 
