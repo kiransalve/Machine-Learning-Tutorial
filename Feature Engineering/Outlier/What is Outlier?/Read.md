@@ -7,6 +7,13 @@ Defination
 
 An outlier is a data point that is significantly different from other observations in a dataset.
 
+Key Points:
+
+It lies far away from the rest of the data
+
+It can be much higher or lower than the typical values.
+
+
 
 Weight based algorithm impacted by outlier
 
