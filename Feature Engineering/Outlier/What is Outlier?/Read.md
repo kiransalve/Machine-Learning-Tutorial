@@ -3,6 +3,11 @@ Outlier - Sharma ji ka beta, pure class ke pass hone ke lale pade hue hai, aur i
 Suppose in group we discuss our salary, some has 20,000, some has 30,000 and some has 40-50,000, 
 but if elon musk comes in our group then our average salary will be in crores becuase he is outlier and skew the data.
 
+Defination
+
+An outlier is a data point that is significantly different from other observations in a dataset.
+
+
 Weight based algorithm impacted by outlier
 
 Tree based algorithm not impacted by outlier because they cut your data on certain condition
