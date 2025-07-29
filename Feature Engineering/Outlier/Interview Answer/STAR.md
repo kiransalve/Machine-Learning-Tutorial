@@ -52,3 +52,14 @@ To find it we subtract the 3rd Quartile by 1st Quartile
 
 IQR = Q3 − Q1
 
+---> How do you handle them?
+There are three main methods to handle outlier
+
+first is remove them if they are less than 5% of total counts
+
+second is cap then (also called as winserize) if they are valid but we need to reduce the infulence of these
+
+third is make new column for them if they are important like promotional sales
+
+In our model we cap them at certain limit and make high qty binary feature like normal order and high qty order 
+
